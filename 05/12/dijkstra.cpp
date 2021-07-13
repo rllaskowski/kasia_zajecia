@@ -18,7 +18,7 @@ void dijkstra(int s){
   
   while(k.size()!=0)
   {
-    pair<int, int> p = k.front();
+    pair<int, int> p = k.top();
     k.pop();
     
     int w = p.second;
